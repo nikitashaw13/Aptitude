@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:isScrollContainer="true"
+    android:background="@drawable/g"
+    android:scrollbars="vertical"
+    tools:context=".ScrollingActivity">
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_anchorGravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:fitsSystemWindows="true"
+            app:contentScrim="#D81B60"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:statusBarScrim="@color/colorAccent"
+            app:toolbarId="@+id/toolbar">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#D81B60"
+                android:visibility="visible"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:titleTextColor="#270649" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:text="Women Fitness"
+                android:textAlignment="center"
+                android:textColor="#270649"
+                android:textSize="30sp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp"
+                app:backgroundTint="#270649"
+                app:layout_anchor="@id/app_bar"
+                app:layout_anchorGravity="bottom|top"
+                app:srcCompat="@android:drawable/ic_dialog_email" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+            <include layout="@layout/content_scrolling" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="306dp"
+                android:layout_height="109dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/round_btn"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Improve Your Game"
+                android:textColor="#270649"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="306dp"
+                android:layout_height="109dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="120dp"
+                android:background="@drawable/round_btn"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Get in Shape"
+                android:textColor="#270649"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="306dp"
+                android:layout_height="109dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="120dp"
+                android:background="@drawable/round_btn"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Loose Weight"
+                android:textColor="#270649"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="306dp"
+                android:layout_height="109dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="120dp"
+                android:background="@drawable/round_btn"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Get Fit"
+                android:textColor="#270649"
+                android:textSize="36sp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorGradientStart">#270649</color>
+    <color name="colorGradientEnd">#AA2525</color>
+    <color name="colorGradientCentre">#553876</color>
+    <color name="colorToolBar">#1A5276</color>
+    <color name="colors">#848586 </color>
+</resources>

@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">Fitness</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="Squats">A squat is a strength exercise in which the trainee lowers their hips from a standing position and then stands back up. During the descent of a squat, the hip and knee joints flex while the ankle joint dorsiflexes; conversely the hip and knee joints extend and the ankle joint plantarflexes when standing up.</string>
+    <string name="burpees">The burpee, or squat thrust, is a full body exercise used in strength training and as an aerobic exercise. The basic movement is performed in four steps and known as a "four-count burpee":[1]
+
+Begin in a standing position.
+Move into a squat position with your hands on the ground. (count 1)
+Kick your feet back into a plank position, while keeping your arms extended. (count 2)
+Immediately return your feet into squat position. (count 3)
+Stand up from the squat position (count 4)</string>
+    <string name="lunges">A lunge can refer to any position of the human body where one leg is positioned forward with knee bent and foot flat on the ground while the other leg is positioned behind.It is used by athletes in cross-training for sports, by weight-trainers as a fitness exercise, and by practitioners of yoga as part of an asana regimen.
+
+In difference to the Split squat exercise, during the lunge the rear leg is also activated.
+
+
+</string>
+    <string name="mc">
+        Mountain Climbers\n Start in a plank position with arms and legs long. Beginning in a solid plank is the key to proper form and good results in the Mountain Climber. At its heart, the Mountain Climber is a form of plank. Keep your abs pulled in and your body straight. Squeeze your glutes and pull your shoulders away from your ears
+Pull your right knee into your chest.  As the knee draws to the chest, pull your abs in even tighter to be sure your body doesn’t sag or come out of its plank position.
+Quickly switch and pull the left knee in. At the same time you push your right leg back, pull your left knee in to the chest using the same form.
+Continue to switch knees. Pull the knees in right, left, right, left—always switching simultaneously so that you are using a “running” motion. As you begin to move more quickly be in constant awareness of your body position and be sure to keep a straight line in your spine and don’t let your head droop. Core body stability is crucial.</string>
+    <string name="jj"> Jumping Jacks\n
+Start standing up with your legs together, a slight bend in knees, and hands resting on thighs.
+Keeping the knees bent, open the arms and legs out to the sides. Arms come above the head and legs wider than shoulders.
+Close your arms and legs back to your sides, returning to your start.</string>
+    <string name="pushups">A push-up is a common calisthenics exercise beginning from the prone position. By raising and lowering the body using the arms, push-ups exercise the pectoral muscles, triceps, and anterior deltoids, with ancillary benefits to the rest of the deltoids, serratus anterior, coracobrachialis and the midsection as a whole.</string>
+    <string name="plank">Plank: Start on the floor on your hands and knees. Place your hands directly under your shoulders. Step your feet back, one at a time. For more stability, bring your feet wider than hip-distance apart, and bring them closer for more of a challenge. Maintain a straight line from heels through the top of your head, looking down at the floor, with gaze slightly in front of your face. Now, tighten your abs, quads, glutes, and hold.</string>
+    <string name="crunches">Crunches: Lie on your back with your knees bent and feet flat on the floor, hip-width apart.
+
+Place your hands behind your head so your thumbs are behind your ears.
+
+Don’t lace your fingers together.
+
+Hold your elbows out to the sides but rounded slightly in.
+
+Tilt your chin slightly, leaving a few inches of space between your chin and your chest.
+
+Gently pull your abdominals inward.
+
+Curl up and forward so that your head, neck, and shoulder blades lift off the floor.
+
+Hold for a moment at the top of the movement and then lower slowly back down.</string>
+    <string name="superman">Lie facedown on the floor with your arms extended in front of you and your legs extended behind you.
+
+Engage your lower back and shoulders to raise your chest and arms off the floor. This is your starting position.
+
+From here, engage your lats and draw your elbows in towards your chest like you’re doing a pullup.
+
+Extend your arms in front of you again. That’s one rep. </string>
+    <string name="situps">Situps:The sit-up is an abdominal endurance training exercise to strengthen and tone the abdominal muscles. It is similar to a crunch, but sit-ups have a fuller range of motion and condition additional muscles.</string>
+    <string name="deadlift">Deadlift:The deadlift is a weight training exercise in which a loaded barbell or bar is lifted off the ground to the level of the hips, torso perpendicular to the floor, before being placed back on the ground. It is one of the three powerlifting exercises, along with the squat and bench press.</string>
+    <string name="russian">Russian Twists: Sit on the floor and bring your legs out straight. Lean back slightly so your torso and legs form a V-like shape, bracing your abdominal wall to engage your core. Balancing here, twist your torso from side to side without moving your legs.</string>
+    <string name="benchpress">Benchpress:Using a full-length Olympic bar, lie on the bench with your feet up and your hands placed wider than your shoulders. Unrack the bar and bring it directly over your chest with your arms fully extended and unlocked at the elbow. Actively depress your shoulders down toward your hips (a). Bend your arms and allow the bar to slowly lower toward your chest. Aim for the middle of your chest directly over your nipple line (b). Pause with the bar just above your chest. Activate your chest muscles and press the bar straight back to the start. That\'s one rep.</string>
+    <string name="pullups">Pullups:A pull-up is an upper-body strength exercise. The pull-up is a closed-chain movement where the body is suspended by the hands and pulls up. As this happens, the elbows flex and the shoulders adduct and extend to bring the elbows to the torso.</string>
+    <string name="legraise">Legraises:Lie on your back, legs straight and together.
+
+ Keep your legs straight and lift them all the way up to the ceiling until your butt comes off the floor.
+        Slowly lower your legs back down till they’re just above the floor. Hold for a moment.
+        Raise your legs back up. Repeat.</string>
+    <string name="bodyweight">Bodyweight</string>
+    <string name="lean_fit">Lean Fit</string>
+    <string name="Gym_Strong">Gym Strong</string>
+    <string name="boxjumps"> High Box Jump: Jumping increases your strength and muscle tone, and builds both upper body and lower body strength like crazy. Box jumps force you to jump high enough that you\'re forced to use every single muscle in your legs (as well as your arms) to propel you up.</string>
+</resources>
